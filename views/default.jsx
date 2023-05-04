@@ -4,8 +4,8 @@ function Def (html) {
     return (
         <html>
             <head>
-                <title>Title</title>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossOrigin="anonymous"/>
+            <title>RestRant Live Demo</title>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossOrigin="anonymous" />
                 <link rel="stylesheet" href="/css/style.css"/>
             </head>
             <body>
@@ -16,4 +16,3 @@ function Def (html) {
 }
 
 module.exports = Def
-
