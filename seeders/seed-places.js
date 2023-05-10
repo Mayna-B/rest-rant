@@ -2,16 +2,16 @@ const db = require('../models')
 
 db.Place.create([{
     name: 'Frenchie Cafe',
-    city: 'Seattle',
-    state: 'WA',
-    cuisines: 'Coffee, Bakery',
+    city: 'Carolina Beach',
+    state: 'NC',
+    cuisines: 'Coffee, Bakery, Frenchie Treats',
     pic: '/images/frenchie-cafe.jpg',
     founded: 1989
 }, {
     name: 'Coding Cat Cafe',
-    city: 'Phoenix',
-    state: 'AZ',
-    cuisines: 'Coffee, Bakery',
+    city: 'Wilmington',
+    state: 'NC',
+    cuisines: 'Coffee, Bakery, Cat Treats',
     pic: '/images/Cat-Cafe.jpg',
     founded: 2020
 }])

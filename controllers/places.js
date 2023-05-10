@@ -13,13 +13,24 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
+  if (!req.body.pic) {
+    // Default image if one is not provided
+    req.body.pic = 'http://placekitten.com/400/400'
+  }
+
   db.Place.create(req.body)
   .then(() => {
       res.redirect('/places')
   })
   .catch(err => {
-      console.log('err', err)
+      if (err && err.name == 'ValidationError'){
+        let message = 'Validation Error: '
+        // TODO: Generate error message (s)
+        res.render('places,new', { message })
+      }
+      else {
       res.render('error404')
+      }
   })
 })
 
@@ -57,5 +68,7 @@ router.post('/:id/rant', (req, res) => {
 router.delete('/:id/rant/:rantId', (req, res) => {
     res.send('GET /places/:id/rant/:rantId stub')
 })
+
+
 
 module.exports = router
