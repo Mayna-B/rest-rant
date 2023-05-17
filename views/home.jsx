@@ -7,9 +7,9 @@ function home () {
             <main>
               <h1>HOME</h1>
               <div>
-                <img src="/images/chia-fruit-tea.jpg" alt="Chia Fruit Tea" />
+                <img src="/images/Dog Latte.jpg" alt="Dogge Latte Art" />
                 <div>
-                  Photo by <a href="https://www.queenofmykitchen.com/contact/">Mona</a> on <a href="https://www.queenofmykitchen.com/chia-juice/">Queen of My Kitchen</a>
+                  Photo by <a href="https://www.myrecipes.com/extracrispy/the-cutest-latte-art-dogs-of-instagram/">MRNOVEL</a> on <a href="https://www.gettyimages.com/search/2/image?family=creative&phrase=dog%20latte">Getty Images</a>
                 </div>
               </div>
               <a href="/places">

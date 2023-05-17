@@ -9,7 +9,7 @@ function show (data) {
       )
       let rating = (
         <h3 className="inactive">
-          Not yet rated
+          Not yet rated 
         </h3>
       )
       if (data.place.comments.length) {
